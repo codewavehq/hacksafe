@@ -69,13 +69,10 @@ nav a:hover {
 
 
 .lang-btn {
-    position: sticky;
-    margin-top: 20px;
-    left:  1900px;
-    margin-right: 20px;
-    top: 20px;
-    right: 10px;
-    z-index: 9999; /* عشان يكون فوق كل العناصر */
+   position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
     background-color: #00ff99;
     color: black;
     border: none;
@@ -91,13 +88,6 @@ nav a:hover {
 }
 .lang-btn:active {
     transform: scale(0.95);
-}
-
-.srv1-title,
-.srv2-title,
-.srv3-title
-{
-    margin-bottom: 410px;
 }
 
 
